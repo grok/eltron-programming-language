@@ -1,31 +1,50 @@
-# Name: Abstracted EPL1/EPL2 Library
-# Version: 1.0.0-alpha (http://semver.org/)
-# Author: Sterling Hamilton
-# Website: http://sterlinghamilton.com
-# License: WTFPL 2.0 (http://en.wikipedia.org/wiki/WTFPL)
+                         ''~``
+                        ( o o )
++------------------.oooO--(_)--Oooo.------------------+
+|                                                     |
+|                       @STERLO                       |
+|                                                     |
+|                    .oooO                            |
+|                    (   )   Oooo.                    |
++---------------------\ (----(   )--------------------+
+                       \_)    ) /
+                             (_/
 
-# Terms
-#   EPL: Eltron Programming Language
+Name: Abstracted EPL1/EPL2 Library
+Version: 1.0.0-alpha (http://semver.org/)
+Author: Sterling Hamilton
+Website: http://sterlinghamilton.com
+License: WTFPL 2.0 (http://en.wikipedia.org/wiki/WTFPL)
 
-# Credits
-#  This code contains EPL and EPL2. Software © ZIH Corp. All rights reserved worldwide.
-#  More information about the originating company, licensing and support may be found at http://www.zebra.com
+Terms
+    EPL: Eltron Programming Language
 
-# Resources
-#   Manual: http://www.geksagon.ru/i/2/EPL2_Manual.pdf
+Credits
+   This code contains EPL and EPL2. Software © ZIH Corp. All rights reserved
+   worldwide. More information about the originating company, licensing and
+   support may be found at http://www.zebra.com
 
-# Description:
-# Eltron Programming Language (EPL and EPL2) is a printer control language used to produce printed paper
-# labels for various Eltron (now Zebra) model printers. Newer printers support also the Zebra Programming
-# Language (ZPL).
-# EPL2 is a markup, line-at-a-time language, suitable for printing on media of reduced space, and although
-# it supports bitmaps (and therefore, arbitrary images), its use is usually for labels including barcode
-# information. Contrary to what the official documentation title says, it is not a programming language
-# (no flow-control or even conditionals are supported; variables are supported as numbered content)
-# Each EPL2 line starts with one or more letter (indicating the command), an may be followed by one or
-# more comma-separated arguments. Commands and arguments are case-sensitive.
-# Arguments that are numeric or belong to a fixed set of options are inlined, and any string or set of
-# variable values must be surrounded by double-quotes.
+Resources
+  Manual: http://www.geksagon.ru/i/2/EPL2_Manual.pdf
+
+Description:
+    Eltron Programming Language (EPL and EPL2) is a printer control language
+    used to produce printed paper labels for various Eltron (now Zebra)
+    model printers. Newer printers support also the Zebra Programming
+    Language (ZPL).
+
+    EPL2 is a markup, line-at-a-time language, suitable for printing on media
+    of reduced space, and although it supports bitmaps (and therefore,
+    arbitrary images), its use is usually for labels including barcode
+    information. Contrary to what the official documentation title says, it
+    is not a programming language (no flow-control or even conditionals are
+    supported; variables are supported as numbered content)
+
+    Each EPL2 line starts with one or more letter (indicating the command),
+    an may be followed by one or more comma-separated arguments. Commands
+    and arguments are case-sensitive. Arguments that are numeric or belong
+    to a fixed set of options are inlined, and any string or set of variable
+    values must be surrounded by double-quotes.
 
 -------------------------------------------------------------------
   DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
